@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" width="960" height="260" role="img" aria-labelledby="title desc">
+  <title id="title">Mechanical design and simulation</title>
+  <desc id="desc">Engineering profile banner with a schematic cross-section of a shaft inside a bore.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#314c6a" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0V7" stroke="#587b98" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="260" rx="14" fill="#10243b"/>
+  <path d="M595 1H946Q959 1 959 14V246Q959 259 946 259H595Z" fill="url(#grid)" opacity=".68"/>
+  <rect x="1" y="1" width="958" height="258" rx="13" fill="none" stroke="#3d5d7b" stroke-width="2"/>
+  <path d="M40 46H70" stroke="#f3b86b" stroke-width="3"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="85" y="52" fill="#9fc9e5" font-size="18" font-weight="600" letter-spacing="2">ISATHINSITHA</text>
+    <text x="39" y="117" fill="#f2f7fc" font-size="54" font-weight="700" letter-spacing="-1.8">Mechanical design</text>
+    <text x="39" y="175" fill="#f2f7fc" font-size="54" font-weight="700" letter-spacing="-1.8">and simulation</text>
+    <text x="41" y="221" fill="#a4bdd3" font-size="20">CAD  /  Computational engineering  /  Motorsport</text>
+  </g>
+  <path d="M600 29V231" stroke="#3d5d7b"/>
+  <g>
+    <circle cx="773" cy="127" r="83" fill="url(#hatch)" stroke="#82bedf" stroke-width="2"/>
+    <circle cx="773" cy="127" r="64" fill="#10243b" stroke="#82bedf" stroke-width="2"/>
+    <circle cx="773" cy="127" r="51" fill="#254561" stroke="#f3b86b" stroke-width="2"/>
+    <path d="M670 127H876M773 24V230" stroke="#a4bdd3" stroke-dasharray="13 4 3 4" opacity=".74"/>
+    <path d="M820 84L861 43H928" fill="none" stroke="#82bedf" stroke-width="1.5"/>
+    <circle cx="820" cy="84" r="3" fill="#82bedf"/>
+    <path d="M810 162L855 206H928" fill="none" stroke="#f3b86b" stroke-width="1.5"/>
+    <circle cx="810" cy="162" r="3" fill="#f3b86b"/>
+    <g font-family="ui-monospace, Consolas, monospace" font-size="16" font-weight="600">
+      <text x="880" y="34" fill="#9fc9e5">BORE</text>
+      <text x="874" y="229" fill="#f3b86b">SHAFT</text>
+    </g>
+  </g>
+</svg>
